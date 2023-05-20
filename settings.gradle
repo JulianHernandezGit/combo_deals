@@ -1,0 +1,11 @@
+include ':app'
+rootProject.name = "combo_deals"
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+include ':myapplication'
